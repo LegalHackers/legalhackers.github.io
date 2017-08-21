@@ -3,11 +3,11 @@
 
 @font-face {
 	font-family: 'GothamBook';
-	src: url('https://legalhackers.github.io/fonts/GothamBook.eot');
-	src: local('https://legalhackers.github.io/fonts/GothamBook'), 
-		url('https://legalhackers.github.io/fonts/GothamBook.woff') format('woff'), 
-		url('https://legalhackers.github.io/fonts/GothamBook.ttf') format('truetype'),
-		url('https://legalhackers.github.io/fonts/GothamBook.otf') format('opentype');
+	src: url('https://github.com/LegalHackers/legalhackers.github.io/tree/master/fonts/GothamBook.eot');
+	src: local('https://github.com/LegalHackers/legalhackers.github.io/tree/master/fonts/GothamBook'), 
+		url('https://github.com/LegalHackers/legalhackers.github.io/tree/master/fonts/GothamBook.woff') format('woff'), 
+		url('https://github.com/LegalHackers/legalhackers.github.io/tree/master/fonts/GothamBook.ttf') format('truetype'),
+		url('https://github.com/LegalHackers/legalhackers.github.io/tree/master/fonts/GothamBook.otf') format('opentype');
 }
 
 /*general*/
@@ -68,7 +68,7 @@ a.active {
 .logo {
 	width:14vw;
 	height:14vw;
-	background-image:url('https://legalhackers.github.io/images/logo.jpg');
+	background-image:url('https://github.com/LegalHackers/legalhackers.github.io/blob/master/images/logo.jpg');
 	background-size:cover;
 	background-repeat:no-repeat;
 }
@@ -101,7 +101,7 @@ li {
 	width:30px;
 	height:30px;
 	margin:2.5px;
-	background-image:url('https://legalhackers.github.io/images/logo.jpg');
+	background-image:url('https://github.com/LegalHackers/legalhackers.github.io/blob/master/images/logo.jpg');
 	background-size:cover;
 	background-repeat:no-repeat;
 }
