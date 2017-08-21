@@ -17,6 +17,7 @@ body{
 	width:100%;
 	font-family: sans-serif;
 	position:relative;
+	margin:0;
 }
 
 .container {
@@ -126,7 +127,7 @@ h1 {
 
 h2 {
 	font-size:5vw;
-	padding-top:100px;
+	padding-top:10%;
 	padding-bottom:20px;
 	text-align:center;
 	font-family: 'GothamBook', sans-serif;
@@ -148,11 +149,15 @@ p {
 	margin-bottom:10px;
 }
 
-/*mission*/
-
 /*chapters*/
 
-
+iframe {
+	border:none;
+	width:95%;
+	margin-left:2%;
+	margin-top:20px;
+	height:50%;
+}
 
 /*about*/
 
