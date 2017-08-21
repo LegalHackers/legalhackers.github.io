@@ -149,21 +149,7 @@ p {
 	margin-bottom:10px;
 }
 
-/*chapters*/
-
-iframe {
-	border:none;
-	width:95%;
-	margin-left:2%;
-	margin-top:20px;
-	height:50%;
-}
-
-/*contact*/
-
-div.contact {
-	padding-top:30%;
-}
+/*footer*/
 
 footer {
 	position:fixed;
@@ -185,3 +171,15 @@ footer {
 	margin-left:-22px;
 	text-align:left;
 }
+/*chapters*/
+
+iframe {
+	border:none;
+	width:95%;
+	margin-left:2%;
+	margin-top:20px;
+	height:50%;
+}
+
+
+/*footer*/
