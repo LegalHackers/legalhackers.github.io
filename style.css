@@ -37,7 +37,6 @@ a {
 	text-decoration: none;
 	color:black;
 	font-weight:300;
-	border-bottom:none;
 	transition:color .5s, border-bottom 1s;
 }
 
@@ -45,8 +44,12 @@ a:hover {
 	cursor:pointer;
 	text-decoration:none;
 	color:#dc6868;
-	border-bottom: 1px #dc6868 solid;
 	transition:color .5s, border-bottom 1s;
+}
+
+a.active {
+	color:#dc6868;
+	text-decoration: underline;
 }
 
 .italic {
@@ -90,6 +93,14 @@ li {
 .navbar {
 	position:fixed;
 	font-family: 'Titillium Web', sans-serif;
+	margin-bottom:20px;
+	height:35px;
+}
+
+nav .logo {
+	width:30px;
+	height:30px;
+	margin:2.5px;
 }
 
 /*main*/
@@ -103,15 +114,43 @@ li {
 }
 
 h1 {
-	font-size:7vw;
+	font-size:6.5vw;
 	font-family: 'GothamBook', sans-serif;
 	width:30vw;
 	font-weight:100;
+	padding-top:3vw;
 }
 
 h2 {
 	font-size:5vw;
+	padding-top:100px;
+	padding-bottom:20px;
+	text-align:center;
+	font-family: 'GothamBook', sans-serif;
 }
+
+h3{
+	font-size:3vw;
+	width:75%;
+	margin-left:12.5%;
+	font-family: 'GothamBook', sans-serif;
+	margin-top:40px;
+}
+
+p {
+	width:75%;
+	margin-left:12.5%;
+	font-family:'Titillium Web';
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+/*mission*/
+
+/*chapters*/
+
+
+
 /*about*/
 
 .about {

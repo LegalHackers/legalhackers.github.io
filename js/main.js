@@ -6,3 +6,8 @@ $('.next').on('click', function (event){
 		scrollTop: $( $( this ).attr('href') ).offset().top
 	}, 500);
 });
+
+$('#mission').on('click', function (event)){
+	event.preventDefault();
+	
+}
