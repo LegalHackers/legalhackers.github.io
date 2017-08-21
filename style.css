@@ -184,7 +184,22 @@ div.contact {
 /*footer*/
 
 footer {
-	position:absolute;
-	bottom:48px;
+	position:fixed;
+	bottom:0;
 	width:100%;
+	height:70px;
+	background-color:#000;
+	padding-left:calc(50vw - 24px);
+}
+
+.github {
+	background-image:url("images/github.png");
+	height:48px;
+	width:48px;
+}
+
+.source {
+	width:10%;
+	margin-left:-22px;
+	text-align:left;
 }
