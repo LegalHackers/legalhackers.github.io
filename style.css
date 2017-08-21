@@ -1,0 +1,143 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i');
+
+@font-face {
+	font-family: 'GothamBook';
+	src: url('./GothamBook.eot');
+	src: local('fonts/GothamBook'), 
+		url('fonts/GothamBook.woff') format('woff'), 
+		url('fonts/GothamBook.ttf') format('truetype'),
+		url('fonts/GothamBook.otf') format('opentype');
+}
+
+/*general*/
+
+body{
+	height:100%;
+	width:100%;
+	font-family: sans-serif;
+	position:relative;
+}
+
+.container {
+	width:100vw;
+	height:100vh;
+	display:table;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+	font-weight:300;
+	border-bottom:none;
+	transition:color .5s, border-bottom 1s;
+}
+
+a:hover {
+	cursor:pointer;
+	text-decoration:none;
+	color:#dc6868;
+	border-bottom: 1px #dc6868 solid;
+	transition:color .5s, border-bottom 1s;
+}
+
+.italic {
+	font-weight:300i;
+}
+
+.clearfix::after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.logo {
+	width:14vw;
+	height:14vw;
+	background-image:url('images/logo.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+/*nav*/
+
+nav {
+	width:100%;
+}
+
+ul {
+	height:35px;
+}
+
+li {
+	font-size:20px;
+	margin:7.5px;
+	width:auto;
+	display:inline-block;
+}
+
+.navbar {
+	position:fixed;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+/*main*/
+
+.hero {
+	display:table-cell;
+	vertical-align: middle;
+	width:80vw;
+	padding-left:25vw;
+	padding-right:25vw;
+}
+
+h1 {
+	font-size:7vw;
+	font-family: 'GothamBook', sans-serif;
+	width:30vw;
+	font-weight:100;
+}
+
+h2 {
+	font-size:5vw;
+}
+/*about*/
+
+.about {
+	margin-left:20%;
+	width:60vw;
+	height:100%;
+	font-size:3vw;
+}
+
+.about p {
+	margin-top:30vh;
+	display:inline;
+	width:40vw;
+	margin-bottom:30vh;
+}
+
+/*contact*/
+
+div.contact {
+	padding-top:30%;
+}
+
+/*footer*/
+
+footer {
+	position:absolute;
+	bottom:48px;
+	width:100%;
+}
