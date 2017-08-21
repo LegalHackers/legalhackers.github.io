@@ -3,11 +3,11 @@
 
 @font-face {
 	font-family: 'GothamBook';
-	src: url('./GothamBook.eot');
-	src: local('fonts/GothamBook'), 
-		url('fonts/GothamBook.woff') format('woff'), 
-		url('fonts/GothamBook.ttf') format('truetype'),
-		url('fonts/GothamBook.otf') format('opentype');
+	src: url('../fonts/GothamBook.eot');
+	src: local('../fonts/GothamBook'), 
+		url('../fonts/GothamBook.woff') format('woff'), 
+		url('../fonts/GothamBook.ttf') format('truetype'),
+		url('../fonts/GothamBook.otf') format('opentype');
 }
 
 /*general*/
@@ -68,7 +68,7 @@ a.active {
 .logo {
 	width:14vw;
 	height:14vw;
-	background-image:url('./images/logo.jpg');
+	background-image:url('../images/logo.jpg');
 	background-size:cover;
 	background-repeat:no-repeat;
 }
@@ -101,7 +101,7 @@ li {
 	width:30px;
 	height:30px;
 	margin:2.5px;
-	background-image:url('./images/logo.jpg');
+	background-image:url('../images/logo.jpg');
 	background-size:cover;
 	background-repeat:no-repeat;
 }
