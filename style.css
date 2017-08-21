@@ -159,29 +159,11 @@ iframe {
 	height:50%;
 }
 
-/*about*/
-
-.about {
-	margin-left:20%;
-	width:60vw;
-	height:100%;
-	font-size:3vw;
-}
-
-.about p {
-	margin-top:30vh;
-	display:inline;
-	width:40vw;
-	margin-bottom:30vh;
-}
-
 /*contact*/
 
 div.contact {
 	padding-top:30%;
 }
-
-/*footer*/
 
 footer {
 	position:fixed;
