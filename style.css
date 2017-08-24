@@ -86,10 +86,6 @@ nav {
 	width:100%;
 }
 
-ul {
-	height:35px;
-}
-
 li {
 	font-size:20px;
 	margin:10px;
@@ -117,6 +113,10 @@ li {
 	background-repeat:no-repeat;
 	position:fixed;
 	top:0;
+}
+
+.home {
+	display:none;
 }
 
 /*main*/
@@ -156,9 +156,10 @@ h3{
 p {
 	width:75%;
 	margin-left:12.5%;
-	font-family:'Titillium Web';
+	font-family:'Titillium Web', sans-serif;
 	margin-top:10px;
 	margin-bottom:10px;
+	font-size:2.25vw;
 }
 
 /*footer*/
@@ -189,12 +190,33 @@ footer {
 	display:inline-block;
 }
 
-.email a {
-	color:#fff;
-	font-family:'Titillium Web';
+.youtube {
+	background-image:url("images/youtube.png");
+	width:48px;
+	height:48px;
+	display:inline-block;
 }
 
-/*chapters*/
+.email {
+	background-image:url("images/email.png");
+	width:48px;
+	height:48px;
+	display:inline-block;
+}
+
+
+
+/*page lists*/
+
+.list ul {
+	margin-left:12.5%;
+}
+
+.list ul li {
+	display:block;
+	font-family:"Titillium Web", sans-serif;
+
+}
 
 iframe {
 	border:none;
@@ -204,4 +226,36 @@ iframe {
 	position:absolute;
 	z-index:0;
 	top:0;
+}
+
+/*media-queries*/
+
+@media only screen and (max-width: 1020px) {
+	p {
+		font-size:3.5vh;
+	}
+
+	h2{
+		font-size:3.8vh;
+	}
+}
+
+@media only screen and (max-width:475px) {
+	h2{
+		color:#fff;
+	}
+
+	nav{
+		margin-bottom:20px;
+		background-color:#fff;
+		border-bottom:#000 solid 1px;
+	}
+
+	.home-logo {
+		display:none;
+	}
+
+	.home{
+		display:inline-block;
+	}
 }
