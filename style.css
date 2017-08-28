@@ -1,5 +1,5 @@
 /*fonts*/
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 @font-face {
 	font-family: 'GothamBook';
@@ -95,7 +95,7 @@ li {
 
 .navbar {
 	position:fixed;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-bottom:20px;
 	height:35px;
 	z-index:1;
@@ -156,7 +156,7 @@ h3{
 p {
 	width:75%;
 	margin-left:12.5%;
-	font-family:'Titillium Web', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-top:10px;
 	margin-bottom:10px;
 	font-size:2.25vw;
@@ -214,7 +214,7 @@ footer {
 
 .list ul li {
 	display:block;
-	font-family:"Titillium Web", sans-serif;
+	font-family: 'Open Sans', sans-serif;
 
 }
 
