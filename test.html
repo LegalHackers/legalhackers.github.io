@@ -1,0 +1,27 @@
+<html>
+<head>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"> </script>
+
+<script>
+
+$(function() {
+
+	var people = [];
+
+	$.getJSON('data/chapters.json', function(data) {
+       $.each(data.chapter, function(i, f) {
+       var listItem = "<li>" + f.City + ", " +
+           + f.Country + + f.job + "</td>" + "<td>" + f.roll + "</td>" + "</tr>"
+           $(tblRow).appendTo("#chapters");
+     });
+
+   });
+
+});
+</script>
+</head>
+
+<body>
+	<ul class="list" id="chapters">
+	</ul>
+

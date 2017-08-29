@@ -43,8 +43,7 @@ body{
 
 a {
 	text-decoration: none;
-	color:black;
-	font-weight:300;
+	color:#8a8585;
 	transition:color .5s, border-bottom 1s;
 }
 
@@ -99,6 +98,7 @@ li {
 	margin-bottom:20px;
 	height:35px;
 	z-index:1;
+	background-color:#fff;
 }
 
 .navbar ul {
@@ -215,6 +215,7 @@ footer {
 .list ul li {
 	display:block;
 	font-family: 'Open Sans', sans-serif;
+	width:75%;
 
 }
 
@@ -232,23 +233,34 @@ iframe {
 
 @media only screen and (max-width: 1020px) {
 	p {
-		font-size:3.5vh;
+		font-size:3vh;
+		margin-top:20px;
 	}
 
 	h2{
-		font-size:3.8vh;
+		font-size:4vh;
+		padding-top:120px;
+	}
+
+	h3{
+		font-size:3.5vh;
 	}
 }
 
 @media only screen and (max-width:475px) {
 	h2{
 		color:#fff;
+		padding-top:60px;
 	}
 
 	nav{
 		margin-bottom:20px;
 		background-color:#fff;
 		border-bottom:#000 solid 1px;
+	}
+
+	.navbar{
+		height:auto;
 	}
 
 	.home-logo {
